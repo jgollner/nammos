@@ -221,8 +221,21 @@ footer {
  }
 
 
+ @media only screen and (min-width: 1200px ) {
+
+.logo {
+	background-image: url(../images/logo.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 320px;
+	height: 320px;
+	margin: 100px auto 40px;
+
+}
 
 
+
+}
 
 
 
