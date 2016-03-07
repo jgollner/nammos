@@ -26,9 +26,9 @@ h2 {
 	}
 
 h3 {
-	font-size: 16pt;
+	font-size: 14pt;
 	color: #fff;
-	line-height: 1.5em;
+	line-height: 1.4em;
 	letter-spacing: .05em;
 	}
 
@@ -56,9 +56,9 @@ h3 {
 	background-image: url(../images/logo.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 200px;
-	height: 200px;
-	margin: 60px auto 40px;
+	width: 180px;
+	height: 180px;
+	margin: 40px auto 40px;
 	}
 
 footer {
