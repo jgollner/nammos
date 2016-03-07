@@ -227,8 +227,8 @@ footer {
 	background-image: url(../images/logo.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	margin: 100px auto 40px;
 
 }
@@ -251,7 +251,7 @@ footer {
 
 
 
- @media only screen and (min-width: 1380px ) {
+ @media only screen and (min-width: 1400px ) {
 
 .logo {
 	background-image: url(../images/logo.svg);
