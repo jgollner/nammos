@@ -154,8 +154,12 @@ footer p {
 	width: 67%;
 }
 
-
-
+h3 {
+	font-size: 16pt;
+	color: #fff;
+	line-height: 1.7em;
+	letter-spacing: .05em;
+	}
 
 
 }
