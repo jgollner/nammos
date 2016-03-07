@@ -1,0 +1,230 @@
+html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+h1 {
+	font-size: 20pt;
+	color: #fff;
+	font-family: Georgia, serif;
+	letter-spacing: .05em;
+	line-height: 1.3em;
+	}
+
+h2 {
+	color: #fff;
+	font-size: 16pt;
+	font-weight: 100;
+	}
+
+h3 {
+	font-size: 16pt;
+	color: #fff;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+	}
+
+.landing {
+	background: url(../images/Nammos_Landing.jpg) 50% 0 no-repeat; 
+	height: 100vh;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+   	z-index: 1;
+   	overflow: hidden;
+   	padding-top: 0px;
+	}
+
+.landing-type {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 3em;
+	}
+
+
+.logo {
+	background-image: url(../images/logo.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 220px;
+	margin: 60px auto 40px;
+	}
+
+footer {
+	height: 100vh;
+	width: 100vw;
+	background-color: #191919;
+	padding-top: 50px;
+}
+
+
+.footer-right {
+	background-image: url(../images/map.png);
+	height: 306px;
+	width: 306px;
+	background-size: 100%;
+	margin: 0 auto;
+	
+}
+
+
+
+.footer-left {
+	margin: 50px auto;
+	text-align: center;
+}
+
+.underline {
+	width: 60%;
+	height: 1px;
+	background-color: #444;
+	margin: 10px auto;
+	text-align: center;
+	/*border: 1px solid #fff;*/
+}
+
+
+footer p {
+	color: #fff;
+	line-height: 1.4em;
+	font-size: 14pt;
+}
+
+.contact-info {
+	margin: 30px auto;
+
+}
+
+.landing-subheader {
+	width: 95%;
+	margin: 20px auto;
+	line-height: 1.2em;
+}
+
+
+.scroll {
+	background-image: url(../images/scroll.svg);
+	width: 50px;
+	height: 50px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 30px auto 0;
+}
+
+
+
+
+ @media only screen and (min-width: 500px ) {
+
+
+
+.logo {
+	background-image: url(../images/logo.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 280px;
+	margin: 100px auto 40px;
+
+}
+
+
+
+
+
+ }
+
+
+
+
+ @media only screen and (min-width: 720px ) {
+
+.landing-type {
+	width: 67%;
+}
+
+
+
+
+
+}
+
+
+
+
+ @media only screen and (min-width: 1000px ) {
+
+.landing-type {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 3em;
+}
+
+h1 {
+	font-size: 30pt;
+}
+
+
+
+.footer-right {
+	background-image: url(../images/map.png);
+	height: 306px;
+	width: 306px;
+	background-size: 100%;
+	float: right;
+	position: absolute;
+	right: 250px;
+	margin-top: 50px;
+
+}
+
+footer {
+	text-align: left;
+	height: 70vh;
+}
+
+.footer-left {
+	text-align: left;
+	width: 60%;
+}
+
+.underline {
+	margin: 10px 0;
+}
+
+
+.landing-subheader {
+	width: 60%;
+	margin: 20px auto;
+}
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
