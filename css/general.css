@@ -273,14 +273,14 @@ footer {
    	overflow: hidden;
    	padding-top: 0px;
 	}
-	
+
 .logo {
 	background-image: url(../images/logo.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 370px;
 	height: 370px;
-	margin: 100px auto 40px;
+	margin: 70px auto 40px;
 
 }
 
