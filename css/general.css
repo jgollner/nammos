@@ -250,6 +250,24 @@ footer {
 }
 
 
+ @media only screen and (min-width: 1500px ) {
+
+.landing {
+	background: url(../images/Nammos_Landing.jpg) 50% 0 no-repeat; 
+	background-size: 100%;
+	height: 100vh;  
+	margin: 0 auto; 
+    width: 100vw; 
+    /*max-width: 1920px; */
+    position: relative; 
+   	z-index: 1;
+   	overflow: hidden;
+   	padding-top: 0px;
+	}
+
+
+
+ }
 
 
 
