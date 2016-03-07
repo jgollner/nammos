@@ -235,10 +235,10 @@ footer {
 
 .landing {
 	background: url(../images/Nammos_Landing.jpg) 50% 0 no-repeat; 
-	background-size: 100%;
+	/*background-size: 100%;*/
 	height: 100vh;  
 	margin: 0 auto; 
-    width: 100%; 
+    width: 100vw; 
     max-width: 1920px; 
     position: relative; 
    	z-index: 1;
