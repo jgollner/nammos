@@ -120,13 +120,7 @@ footer p {
 	height: 50px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin: 30px auto 0;
-
-}
-
-.scroll:hover {
-	opacity: .5;
-	cursor: pointer;
+	margin: 10px auto 0;
 }
 
 
@@ -252,12 +246,36 @@ footer {
    	padding-top: 0px;
 	}
 
+.landing-type {
+	width: 60%;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 3em;
+}
+.landing-subheader {
+	width: 60%;
+	margin: 0px auto;
+}
+
 
 }
 
 
 
  @media only screen and (min-width: 1400px ) {
+
+
+.landing-type {
+	width: 50%;
+	margin: 50px auto;
+	text-align: center;
+	line-height: 3em;
+}
+
+.landing-subheader {
+	width: 60%;
+	margin: 20px auto;
+}
 
 
 }
