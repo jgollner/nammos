@@ -121,6 +121,12 @@ footer p {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: 30px auto 0;
+
+}
+
+.scroll:hover {
+	opacity: .5;
+	cursor: pointer;
 }
 
 
