@@ -4,55 +4,217 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nammos Estiatorio</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<title>Nammos</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/general.css">
-	<link rel="stylesheet" type="text/css" href="css/grid.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-</head>
 
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
 <body>
 	
-		<section class="landing">
-			<div class="logo"></div>
-			<div class="landing-type">
-				<h1>Bringing the Traditional Greek Dining Experience to Fraser Street</h1>
-				<div class="landing-subheader">
-				<h3>Our chef has designed the menu with each dish served family style, to be shared and enjoyed amongst the table</h3>
+	<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll logo logo_black" href="index.html">
+                	<img src="images/logo1.svg" class="logo-img" width="120px" height="40px">    
+                </a>
+
+            </div>
+          
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li> 
+                    <!-- <li><a href="menu.html">Menu</a></li> -->
+                    <li><a href="#">About</a></li>
+	                    <li>
+	                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">Menu <span class="caret"></span></a>
+	                          <ul class="dropdown-menu" role="menu">
+	                            <li><a href="#">Main Menu</a></li>
+	                            <li><a href="#">Drinks</a></li>
+	                            <li><a href="#">Dessert</a></li>
+	                            <!-- <li><a href="#">LinkedIn</a></li> -->
+	                            <!-- <li><a href="#">Dribble</a></li> -->
+	                          </ul>
+	                    </li>
+                    <!-- <li><a href="#">Gallery</a></li> -->
+                    
+                    <!-- <li><a href="#">Contact</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+	<div class="landing">
+		<div class="landing-logo"></div>
+		<button class="btn btn1" id="btn1"><a href="menu.html">View Menu</a></button>
+	</div>
+
+
+
+
+
+	<div class="section1" id="s1">
+
+		<div class="s1-logo">
+
+		</div>
+
+		<div class="s1-title">
+			<!-- <h2>Welcome to Nammos</h2> -->
+		</div>
+
+		<div class="s1-content">
+			<h2>Bringing the traditional Greek dining experience to Fraser Street. Our chef has designed the menu with each dish served family style, to be shared and enjoyed amongst the table</h2>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+	<div class="section2" id="s2">
+
+		<div class="s2-title">
+			<h2>Our Kitchen</h2>
+			<!-- <div class="underline"></div> -->
+		</div>
+
+		<div class="s2-grid-hold">
+			<div class="grid">
+
+				<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+					<div class="s2-bucket s2-bucket-1">
+						<a href="menu.html"><div class="s2-icon s2-icon-1"></div></a>
+						<div class="s2-b-title"><h2><small>Main Menu</small></h2></div>
+						<div class="s2-main"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mauris nec purus dapibus tincidunt.</p></div>
+					</div>
 				</div>
-			</div>
 
-			<div class="scroll">
-				<a class="jumper" href="#pliip"><img src="images/scroll.svg" width="50px" height="50px"></a>
-			</div>
-
-		</section>
-
-
-
-
-		<footer>
-			<div class="footer-content">
-				
-
-				<div class="footer-right">
-
+				<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+					<div class="s2-bucket s2-bucket-1">
+						<a href="menu.html"><div class="s2-icon s2-icon-2"></div></a>
+						<div class="s2-b-title"><h2><small>Drinks</small></h2></div>
+						<div class="s2-main"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mauris nec.</p></div>
+					</div>
 				</div>
-					<div class="footer-left">
-					<div id="pliip"><h2>Contact</h2></div><div class="underline"></div><br>
-					<p>3980 Fraser Street</p><p>Vancouver Canada</p><p>V5V 4E4</p>
-					<div class="contact-info">
-						<p>604-428-6850</p>
-						<p>info@nammos.ca</p>
+
+				<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+					<div class="s2-bucket s2-bucket-1">
+						<a href="menu.html"><div class="s2-icon s2-icon-3"></div></a>
+						<div class="s2-b-title"><h2><small>Dessert</small></h2></div>
+						<div class="s2-main"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mauris nec purus dapibus.</p></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+			
+	</div>
+
+
+	<!-- <div class="section3">
+		<div class="s3-content">
+
+			<div class="s3-title">
+				<h2>Our Products</h2>
+				<div class="underline"></div>
+			</div>
+			
+			<div class="grid">
+				<div class="unit unit-s-1 unit-m-1	 unit-l-1-2">
+					<div class="s2-bucket s2-bucket-1">
+					
+					<div class="s2-b-title"><h2><small>Gnostyx Framework</small></h2></div>
+					<div class="s2-main"><p>The Gnostyx team has been actively using content technologies for over 20 years, giving it a solid base of experience from which to offer practical guidance.The inter-disciplinary Gnostyx team brings together expertise from a range of fields critical to the design, development, and delivery of successful content solution projects.</p></div>
+					</div>
+					</div>
+
+					<div class="unit unit-s-1 unit-m-1 unit-l-1-2">
+						<div class="s2-bucket s2-bucket-1">
+							
+						<div class="s2-b-title"><h2><small>Gnostyx Laboratory</small></h2></div>
+						<div class="s2-main"><p>The inter-disciplinary Gnostyx team brings together expertise from a range of fields critical to the design, development, and delivery of successful content solution projects. The inter-disciplinary Gnostyx team brings together expertise from a range of fields critical to the design, development, and delivery of successful content solution projects.</p>
+						</div>
 					</div>
 				</div>
 			</div>
+	
+		</div>
+	</div>
+ -->
 
-			<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-			<script type="text/javascript" src="js/main.js"></script>
 
-		</footer>
 
+
+
+		<!-- S4 Goes Here -->
+		<!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		<div class="section5" id="s5">
+
+			<a href="https://www.google.ca/maps/place/3980+Fraser+St,+Vancouver,+BC+V5V+4E4/@49.2494357,-123.092077,17z/data=!3m1!4b1!4m2!3m1!1s0x548673ff396e3871:0xaae26cdbad6d1322" target="_blank"><div class="footer-map"></div></a>
+
+			<div class="contact-info">
+				<div class="s5-title">
+					<h2>Contact</h2>
+				</div><br>
+				<div class="s5-body">
+					<p>3980 Fraser Street<br>Vancouver BC<br>V5V 4E4</p>
+
+					<p>604-428-6850<br>info@nammos.ca</p>
+					
+				</div>
+			</div>
+
+			<div class="social-media">
+				<a href="https://www.facebook.com/NammosVan/" target="_blank"><div class="social-icon social-icon-1"></div></a>
+				<a href="https://www.instagram.com/nammosvan/" target="_blank"><div class="social-icon social-icon-2"></div></a>
+				<a href="#"><div class="social-icon social-icon-3"></div></a>
+			</div>
+
+		</div>
+
+	
+
+	<footer>
+		<div class="legal-info">
+			<p>2016 © Nammos Estiatorio All Rights Reserved</p>
+		</div>
+	</footer>
+
+
+
+
+
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 </body>
 </html>
