@@ -32,17 +32,25 @@ background-color: #191919;
 }
 
 
-.landing-logo {
+/*.landing-logo {
 	width: 400px;
 	height: 280px;
 	background-image: url(../images/landing-logo.svg);
 	background-repeat: no-repeat;
 	margin: 80px auto 40px;
-	/*position: fixed;*/
+
 	opacity: .7;
 	z-index: 0;
 }
-
+*/
+.landing-logo {
+	width: 300px;
+	height: 300px;
+	margin: 20px auto;
+	z-index: 0;
+	background-image: url(../images/landing-logo.svg);
+	background-repeat: no-repeat;
+}
 
 .landing-title {
 	width: 90%;
@@ -480,6 +488,25 @@ footer p {
 	color: #666;
 }
 
+
+
+
+@media only screen and (min-width: 450px) {
+
+.landing-logo {
+	width: 400px;
+	height: 280px;
+	background-image: url(../images/landing-logo.svg);
+	background-repeat: no-repeat;
+	margin: 80px auto 40px;
+
+	opacity: .7;
+	z-index: 0;
+}
+
+
+
+}
 
 
 
