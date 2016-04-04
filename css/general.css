@@ -270,7 +270,7 @@ a {
 }
 
 .s2-icon-3 {
-	background-image: url(../images/icon003.png);
+	background-image: url(../images/img003.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -492,6 +492,13 @@ footer p {
 	font-size: 9pt;
 	color: #666;
 }
+
+
+.f-map {
+	width: 300px;
+	max-width: 320px;
+}
+
 
 
 
