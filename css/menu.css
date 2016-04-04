@@ -1,7 +1,12 @@
 .menu-section {
 	height: inherit;
 	width: 100%;
-	background-color: #fff;
+	/*background-color: #fff;*/
+
+	background-image: url(../images/pattern.svg);
+	background-repeat: repeat;
+
+	/*background-size: 100%;*/
 
 }
 
@@ -18,24 +23,21 @@
 }
 
 .menu-landing-logo {
-	width: 300px;
-	height: 300px;
-	margin-top: 20px;
-	margin-bottom: -110px;
+	width: 270px;
+	height: 200px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	z-index: 0;
+	opacity: .7;
+	/*position: fixed;*/
+	position: relative;
 }
 
 .landing-logo {
 	z-index: 0;
 }
 
-.menu-nav {
-	display: inline-block;
-	color: #fff;
-	width: 100%;
-	margin: 0 auto;
-	z-index: 20;
-}
+
 
 li {
 	z-index: 10;
@@ -73,9 +75,12 @@ li {
 	width: 95%;
 	height: inherit;
 	margin: 50px auto;
-	background-color: #f2f2f2;
+	background-color: #fff;
+	border: 1px solid #e3e3e3;
 	padding: 30px 0;
-	
+/*	-webkit-box-shadow: 1px 1px 5px 0px rgba(189,189,189,1);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(189,189,189,1);
+	box-shadow: 1px 1px 5px 0px rgba(189,189,189,1);*/
 }
 
 .price {
@@ -94,13 +99,86 @@ li {
 }
 
 
+
+
+.menu-top {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.menu-toggle {
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px;
+	opacity: .7;
+	padding: 0 20px;
+}
+
+
+
+.menu-nav {
+	width: 100%;
+	display: inline-block;
+	color: #fff;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	margin: 10px auto;
+	z-index: 20;
+	position: absolute;
+}
+
+.mt-2 {
+	padding: 0 0px;
+}
+
+
+
+
+.menu-selector {
+	transform: translate(20%, -50%);
+	position: absolute;
+	margin: 61px auto;
+	text-align: center;
+	width: 100%;
+}
+
+
+.mt-active {
+	border: 1px solid #fff;
+	padding: 5px 20px;
+	opacity: 1;
+}
+
+
+
+.menu-under {
+	background-image: url(../images/underline.svg);
+	background-repeat: no-repeat;
+	height: 10px;
+	width: 230px;
+	margin: 10px auto;
+}
+
+
+.s1-title {
+	margin:10px auto;
+}
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 720px) {
 
 .menu-items {
 	width: 80%;
 	height: inherit;
 	margin: 50px auto;
-	background-color: #f2f2f2;
+	background-color: #fff;
 	padding: 30px 0;
 }
 
@@ -115,16 +193,22 @@ li {
 	margin: 0 auto 30px;
 }
 
+
 }
 
 @media only screen and (min-width: 1280px) {
 
 
 .m-item {
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 }
 	
+.app-title {
+	width: 70%;
+	margin: 0 auto 30px;
+}
+
 }
 
 

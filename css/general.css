@@ -1,3 +1,8 @@
+html {
+	width: 100%;
+	/*overflow: hidden;*/
+}
+
 .navbar {
 /*	height: 70px;
 	padding-top: 10px;*/
@@ -416,7 +421,7 @@ a {
 .social-icon {
 	width: 50px;
 	height: 50px;
-
+	opacity: .7;
 	/*background-color: #666;*/
 	/*border-radius: 50%;*/
 	display: inline-block;
